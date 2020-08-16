@@ -1,0 +1,88 @@
+1.React&Redux,Thunk,Firebase(firestore,authentcation,cloud functions,hosting)
+-react basics,redux basics,html&javascript.
+
+2.Planning the app
+app-->nav-->(signin,signup)
+|
+dashboard,project,create project,signin,signup
+|
+project list,notifications
+
+client              server
+(react+redux)       (firebase db,auth,cloud functions)
+
+3.Setting up
+-materialise css
+-npm install react-router-dom
+-set components
+
+4.browserouter(default="all")--switch(specific)
+-navlink(active links)
+-const(props-props.match.params.id)
+-index.css(global),app.css(local)
+
+
+
+
+
+5.npm install redux react-redux
+-redux reducers
+-state of application
+-index.js(provider)->reducer(case)->component(action,as props)$$revese
+-
+	(halt dispatch,perform async req
+		resume dispatch)
+	   action creator --------------reducer
+(action/to-
+reducer) - 		   |(update state)
+	-		   |
+dispatch action           redux(central store)
+	   -		   |
+(add/action)-		   |(component subscribe to props)
+	     -----------component
+
+6.Thunk-firebase
+-npm install redux-thunk
+-create new project(npm install firebase)
+
+7.Firestore(nosql database)
+-has collections
+-npm install react-redux-firebase redux-firestore
+-npm i --save react-redux-firebase@next
+
+8.Auth-(email,uid,photo url,displayname)
+-dispatch(go) 
+-mapstate(come)
+-reducers,actions
+-cuurent auth
+
+
+
+9.Firebase security rules
+-simulater,authenticated
+-firebase id
+
+10.Firebase cloud functions
+-login,init,deploy(sudo npm install)
+-write in rules for create & signup
+-connect by firestore
+
+11.build,deploy
+https://net-ninja-marioplan-6c67d.web.app/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
